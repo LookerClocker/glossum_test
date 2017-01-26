@@ -1,6 +1,7 @@
 If you wont to see the result, just run localhost and open index.html.
 
-You need to run localhost because of request.
+You need to run local web server (localhost) because of request!!!
+
 Request to json file would not work if you just open index.html without localhost.
 Try to open it in any IDE and run localhost to see the result.
 
