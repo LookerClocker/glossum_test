@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="main.css">
+    <script src="app.js"></script>
+    <!--Just added babel below. Because i have written this using ES6 syntax-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.24/browser.js"></script>
+    <title>Login</title>
+</head>
+<body>
+<div class="form-container">
+    <div class="img-container">
+        <img src="https://www.prestigenews.com/lib/img/prestigenews-logo-3.png?0.3.1" alt="logo">
+    </div>
+    <form id="loginForm">
+        <div class="group">
+            <input id="login" type="text" required/>
+            <span class="highlight"></span>
+            <span class="bar"></span>
+            <label>Login</label>
+        </div>
+        <div class="group">
+            <input id="pass" type="password" required/>
+            <span class="highlight"></span>
+            <span class="bar"></span>
+            <label>Password</label>
+        </div>
+        <div class="group">
+            <p>Remember me?</p>
+            <input type="checkbox"/>
+        </div>
+        <button>LogIn</button>
+    </form>
+    <div class="pass-container">
+        <p class="loose-pass"><a href="#">Forgot Your Password?</a></p>
+    </div>
+</div>
+
+<div id="blockM" class="popup-container hidden">
+    <div class="message">
+        <p id="title" class="medium"></p>
+        <button id="okButt" class="ok-button">OK</button>
+    </div>
+</div>
+
+</body>
+</html>
