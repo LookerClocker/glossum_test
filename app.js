@@ -5,11 +5,6 @@ document.addEventListener('DOMContentLoaded', () => {
      * Gathering and sending data from login form to server
      */
 
-    /**
-     * start
-     * @type {Element}
-     */
-
     let loginForm = document.getElementById('loginForm'),
         message = document.getElementById('blockM'),
         login = document.getElementById('login'),
